@@ -1,0 +1,45 @@
+body{
+     background-color: rgb(240, 147, 182);
+     text-align: center;
+     margin: 10% auto;
+     width: 45%;
+}
+header {
+     font-family: sans-serif, Arial, Helvetica;
+     color: white;
+}
+#title:hover {
+     color: black;
+}
+.sub-title {
+     font-size: 70%;
+}
+#name {
+     font-weight: bolder;
+}
+section li {
+     list-style-type:decimal;
+     font-size: 110%;
+     font-weight: bold;
+     margin: 3% auto;
+     text-align: left;
+     font-size: 90%;
+}
+img {
+     width: 30%;
+     margin: 5%;
+}
+#quote {
+     color: white;
+     font-size: 150%;
+     margin: 0 auto;
+     width: 60%;
+}
+footer {
+     margin: 10%
+}
+footer p {
+     font-size: 75%;
+     width: 75%;
+     margin: 0 auto;
+}
