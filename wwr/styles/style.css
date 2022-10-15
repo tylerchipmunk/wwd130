@@ -2,7 +2,7 @@
 
 body {
      background-color:#c4c4c4;
-     font-family: 'Merriweather', Helvetica, sans-serif;
+     font-family: 'Merriweather', 'Helvetica', 'sans-serif';
      font-size: 22px;
      margin: 0;
      padding: 0;
@@ -45,7 +45,7 @@ nav a:hover {
 }
 .home-title {
      color:#0A9AD2;
-     font-family: 'Shrikhand', Georgia;
+     font-family: 'Shrikhand', 'Brush Script MT', 'Papyrus';
      font-size: 2em;
      margin-top: 10px;
 }
@@ -105,7 +105,7 @@ h2 {
 .msg h2 {
      text-align: center;
      color: #0A9AD2;
-     font-family: 'Shrikhand', Georgia;
+     font-family: 'Shrikhand', 'Brush Script MT', 'Papyrus';
 }
 .msg p {
      color: #000;
