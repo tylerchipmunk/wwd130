@@ -12,7 +12,7 @@ Fonts are separated by a & */
   --accent2-color: #0AC496;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: 'Shrikhand', seif;
+  --heading-font: 'Shrikhand', Georgia;
   --paragraph-font: 'Merriweather', Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */

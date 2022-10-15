@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Shrikhand&display=swap');
+
+body {
+     background-color:#0AC496;
+     font-family: 'Merriweather', Helvetica, sans-serif;
+     font-size: 22px;
+     margin: 0;
+     padding: 0;
+}
 #content {
      max-width: 1600px;
      margin: 0 auto;
+}
+header {
+     background-color:#14C4C4;
+}
+#logo_link {
+     padding-top: 5px;
+}
+.logo {
+     background-color: #fff;
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     background-color: lightgrey;
 }
 nav {
      text-align: center;
@@ -9,67 +31,101 @@ nav a {
      text-align: center;
      color: #fff;
      text-decoration: none;
-}
-#hero-msg h1 {
-     text-align: center;
-}
-#hero-msg h4 {
-     text-align: center;
-}
-.button-box {
-     text-align: center;
-}
-main section {
-     text-align: center;
-}
-#background {
-     height: 725px;
-}
-body {
-     background-color:#0AC496;
-}
-header {
-     background-color:#14C4C4;
+     padding: 35px;
 }
 nav a:hover {
      background-color:#14AC53;
      color: #000;
 }
+#hero-box h4 {
+     text-align: center;
+}
+#hero-img {
+     width: 100%;
+}
+.home-title {
+     color:#0A9AD2;
+     font-family: 'Shrikhand', Georgia;
+     font-size: 2em;
+     margin-top: 10px;
+}
+.button-box {
+     text-align: center;
+}
 .book {
      background-color:#14C4C4;
      color: #fff;
      text-decoration: none;
-}
-.join {
-     background-color:#14c4c4;
-     color: #fff;
-     text-decoration: none;
+     font-size: 18px;
+     padding: 15px 30px;
+     margin-top: 15px;
+     border-radius: 5px;
 }
 .book:hover {
      background-color:#14AC53;
      color: #000;
 }
-.join:hover {
-     background-color:#14AC53;
-     color: #000;
+main section {
+     text-align: center;
+}
+main section img {
+     box-sizing: border-box;
+}
+.card-img {
+     width: 25%;
+     border: 10px solid #000;
+}
+.icon {
+     padding-top: 10px;
+}
+h2 {
+     margin: 0;
+}
+.rivers-card{
+     margin: 200px 0;
+}
+.camping-card{
+     margin: 200px 0;
+}
+.rapids-card{
+     margin: 200px 0;
 }
 #background {
+     height: 725px;
      background-color:#fff;
 }
 .msg {
      background-color:#0AC496;
-}
-footer {
-     background-color:#14C4C4;
-}
-.home-title {
-     color:#0A9AD2;
+     line-height: 1.5em;
+     padding: 35px;
 }
 .msg h2 {
+     text-align: center;
      color: #0A9AD2;
+     font-family: 'Shrikhand', Georgia;
 }
 .msg p {
      color: #000;
+     font-size: .8em;
+     padding-bottom: 15px;
+}
+.join {
+     background-color:#14c4c4;
+     color: #fff;
+     text-decoration: none;
+     font-size: 18px;
+     padding: 15px 30px;
+     margin-top: 15px;
+     border-radius: 5px;
+}
+.join:hover {
+     background-color:#14AC53;
+     color: #000;
+}
+footer {
+     background-color:#14C4C4;
+     padding: 25px 50px;
+     margin-top: 200px;
 }
 footer a{
      color: #fff;
@@ -79,17 +135,6 @@ footer a:hover{
      background-color: #14AC53;
      color: #000;
 }
-.logo {
-     background-color: #fff;
-     width: 80px;
-     height: 80px;
-}
-#hero-img {
-     width: 100%;
-}
-.card-img {
-     width: 25%;
-}
 footer p {
     font-size: 1.2em;
 }
@@ -98,4 +143,5 @@ footer p a:hover {
 }
 .social img {
      width: 80px;
+     padding-top: 15px;
 }

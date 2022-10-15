@@ -1,0 +1,25 @@
+body {
+     height: 100%;
+     width: 100%;
+     padding: 0;
+}
+
+#title {
+     width: 100%
+}
+
+.background {
+     background-color: hsl(0, 0%, 47%);
+     text-align: center;
+}
+
+.circle {
+     font-size: 10%;
+     width: 18%;
+     padding: 0;
+     border-style: solid;
+     border-width: 5ex;
+     border-color: darkslategray;
+     border-radius: 50%;
+     margin: 4%;
+}
