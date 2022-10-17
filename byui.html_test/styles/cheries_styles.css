@@ -1,0 +1,35 @@
+main {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     text-align: center;
+     font-size: 22px;
+     font-weight: 100;
+}
+h1 {
+     font-weight: 700;
+     grid-column: 1/3;
+     grid-row: 1/2;
+     z-index: 1;
+     font-size: 5em;
+     letter-spacing: .2em;
+     padding-top: 2%;
+}
+img {
+     width: 80%;
+     grid-column: 1/2;
+     grid-row: 1/2;
+     margin: 0 auto;
+}
+.gray_box {
+     background-color: lightgrey;
+     width: 100%;
+     grid-column: 2/3;
+     grid-row: 1/2;
+     text-align: center;
+}
+h2 {
+     color: red;
+     margin:65% 0 0 0;
+     font-size: 3em;
+     letter-spacing: .2em;
+}
