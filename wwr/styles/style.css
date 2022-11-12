@@ -53,7 +53,6 @@ nav {
      justify-content: space-around;
      padding: 1em;
      display: flex;
-     justify-content: space-around;
 }
 nav a {
      text-align: center;
@@ -217,6 +216,171 @@ footer p a:hover {
      font-size: .75em; 
      color: #e6f9ff;
 }
+
+
+/* BLOG PAGE */
+
+#blog_main {
+     display: grid;
+     grid-template-columns: repeat(10, 1fr);
+}
+#blog_main h1{
+     font-size: 2em;
+}
+#bold-anouncement-img {
+     margin: 75px 0px;
+     width: 850px;
+     grid-column: 2/7;
+     grid-row: 1/2;
+}
+#anouncement-background {
+     margin: 75px 0px;
+     grid-column: 2/7;
+     grid-row: 1/2;
+     background-color: #14c4c4;
+     opacity: 35%;
+}
+#bold-anouncement {
+     margin: 75px 0px;
+     grid-column: 2/7;
+     grid-row: 1/2;
+     z-index: 1;
+}
+#bold-anouncement h1 {
+     color: #000;
+     font-size: 3em;
+     line-height: 2em;
+     width: 450px;
+     margin: 100px 150px;
+}
+#anouncement-text-box {
+     height: 350px;
+     background-color: #0AC496;
+     grid-column: 6/10;
+     grid-row: 1/2;
+     z-index: 1;
+     margin-top: 300px;
+     align-items: center;
+     border-radius: 20px;
+     
+}
+#anouncement-text-box p {
+     width: 500px;
+     margin: 35px;
+     font-size: 1.5em;
+     line-height: 1.5em;
+     text-align: center;
+}
+#past-season {
+     grid-column: 1/11;
+     grid-row: 2/5;
+     padding: 10px;
+}
+#hilights-box {
+     background-color: #0AC496;
+     width: 100%;
+     height: 42em;
+     align-items: center;
+}
+#hilights-box p {
+     padding: 40px;
+     width: 40%;
+     font-size: 1.6em;
+     line-height: 1.5em;
+     margin: 30px;
+}
+#hilight-title {
+     margin: 25px auto;
+}
+#over-the-rapids {
+     width: 300px;
+     grid-column: 9/10;
+     grid-row: 2/3;
+     margin: 200px 50px -200px -50px;
+     z-index: 1;
+
+}
+#kathy {
+     width: 450px;
+     grid-column: 6/9;
+     grid-row: 3/4;
+}
+#soft-bend {
+     width: 700px;
+     grid-column: 7/10;
+     grid-row: 4/5;
+     margin: -100px auto 100px auto;
+}
+#wild-encounters {
+     grid-column: 1/11;
+     grid-row: 5/6;
+}
+#encounter-img {
+     grid-column: 2/10;
+     grid-row: 6/7;
+     box-shadow: 10px 10px 10px #000;
+}
+#encounters-intro {
+     background-color: #c4c4c4;
+     opacity: 65%;
+     grid-column: 3/9;
+     grid-row: 6/7;
+     height: 150px;
+     margin: auto 0;
+}
+.encounter-card-img {
+     width: 100%;
+     box-shadow: 5px 5px 10px #000;
+}
+.encounter-card-img:hover {
+     opacity: 25%;
+}
+#scorpion {
+     grid-column: 2/5;
+     grid-row: 7/8;
+     margin: 50px auto -50px auto;
+}
+.encounter-title h2{
+     font-size: 3em;
+     line-height: 2em;
+     padding-top: 200px
+}
+#scorpion-title {
+     height: auto;
+     width: auto;
+     grid-column: 2/5;
+     grid-row: 7/8;
+     z-index: -1;
+     margin: 50px auto -50px auto;
+}
+.encounter-card {
+     text-align: center;
+     width: 600px;
+}
+#scorpion-card {
+     grid-column: 5/10;
+     grid-row: 7/8;
+     margin: auto auto -25px auto;
+}
+#big-horned-sheep-card {
+     grid-column: 2/7;
+     grid-row: 8/9;
+     margin: 175px auto auto auto;
+}
+#big-horned-sheep {
+     grid-column: 7/10;
+     grid-row: 8/9;
+     margin: 100px auto 50px auto;
+}
+#big-horned-sheep-title {
+     grid-column: 7/10;
+     grid-row: 8/9;
+     z-index: -1;
+     margin: 100px auto 50px auto;
+}
+
+
+
 @media screen and (max-width: 900px) {
      #hero, .home-grid {
          display: block;
