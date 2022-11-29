@@ -16,6 +16,10 @@ body {
 header {
      display: grid;
      grid-template-columns: repeat(10, 1fr);
+     position: fixed; /* Set the navbar to fixed position */
+     top: 0; /* Position the navbar at the top of the page */
+     width: 100%; /* Full width */
+     z-index: 5;
 }
 #logo {
      grid-column: 2/3;
@@ -50,6 +54,9 @@ nav a:hover {
      color: #ff1f00;
 }
 
+#home_main {
+     margin-top: 10em;
+}
 #home_grid_box {
      display: grid;
      grid-template-columns: 1fr 1fr; /**/
@@ -96,8 +103,12 @@ nav a:hover {
      color: #400800;
      font-size: 2em;
      text-align: center;
-     margin: auto;
      z-index: -1;
+     background-color: lightgrey;
+     margin: auto;
+}
+.text-box-under div h2 {
+     margin: 60px 50px;
 }
 
 #races_img {
