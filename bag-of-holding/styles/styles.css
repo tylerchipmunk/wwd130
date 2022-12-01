@@ -57,12 +57,14 @@ nav a:hover {
 #home_main {
      margin-top: 10em;
 }
+.main_grid_box {
+     font-family: "Lato", Helvetica, sans-serif;
+     margin: 10px 30px;
+}
 #home_grid_box {
      display: grid;
      grid-template-columns: 1fr 1fr; /**/
      gap: 30px;
-     font-family: "Lato", Helvetica, sans-serif;
-     margin: 10px 30px;
 }
 #main-hero-img {
      width: 100%;
@@ -158,4 +160,80 @@ footer p {
 }
 .social img {
      width: 50px;
+}
+
+
+
+
+/*classes*/
+#classes_grid_box{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     margin-top: 70px;
+     gap: 30px;
+}
+.title_sub_page {
+     width: 100%;
+}
+#title_background_2 {
+     grid-column: 1/5;
+     grid-row: 1/2;
+}
+#intro_box_classes {
+     width: 30%;
+     height: 55%;
+     margin: auto;
+     grid-column: 1/5;
+     grid-row: 1/2;
+}
+.head_box {
+     margin: auto;
+}
+.head_box h1 {
+     color: #fff;
+}
+#classes_head_box {
+     grid-column: 1/5;
+     grid-row: 1/2
+}
+.classes_page_devide {
+     text-align: center;
+     padding: 30px;
+     grid-column: 1/5;
+     background-color: #7f1000 ;
+     width: 60%;
+     margin: auto;
+}
+.left_img {
+     grid-column: 1/2;
+     height: 100%;
+     max-height: 250px;
+     margin: auto;
+}
+.right_txt {
+     grid-column: 2/5;
+     border: 10px solid #400800;
+     text-align: center;
+     padding: 0 30px;
+     min-height: 150px;
+     height: 75%;
+     margin: auto;
+     margin-right: 7em;
+}
+.right_img {
+     grid-column: 4/5;
+     height: 100%;
+     max-height: 250px;
+     margin: auto;
+}
+.left_txt {
+     grid-column: 1/4;
+     border: 10px solid #400800;
+     text-align: center;
+     padding: 0 30px;
+     justify-items: center;
+     min-height: 150px;
+     height: 75%;
+     margin: auto;
+     margin-left: 7em;
 }
